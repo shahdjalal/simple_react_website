@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './assets/components/navbar/Navbar.jsx';
 import Home from './assets/components/home/Home.jsx';
 import Port from './assets/components/portfolio/Port.jsx';
-import About from './assets/components/about/about.jsx';
+import About from './assets/components/about/About.jsx';
 import Contact from './assets/components/contact/Contact.jsx';
 import Footer from './assets/components/footer/Footer.jsx';
 import { Routes, Route } from 'react-router-dom';
