@@ -1,0 +1,64 @@
+.home{
+    background-color: #1abc9c;
+    padding: 60px 0;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home img{
+
+    width: 250px;
+    height: 250px;
+}
+
+
+.home h1{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: bold;
+   
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+     color: #fff;
+   
+}
+
+.star::before{
+content: "__________";
+position: absolute;
+color: white;
+right:120%;
+bottom: 24%;
+font-weight: bold;
+}
+
+.star::after{
+    content: "__________";
+    position: absolute;
+    color: white;
+   left:120%;
+    bottom: 24%;
+    font-weight: bold;
+    }
+
+    .home .desc {
+
+        color: #fff;
+        font-size: 25px;
+
+    }

@@ -1,0 +1,73 @@
+.about{
+
+    background-color: #1abc9c;
+    padding: 100px 0;
+  
+}
+
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.about h1{
+    text-transform: uppercase;
+    color:white;
+    font-size: 50px;
+  font-weight: bold;
+   
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+     color: #fff;
+   
+}
+
+.star::before{
+content: "__________";
+position: absolute;
+color: white;
+right:120%;
+bottom: 24%;
+font-weight: bold;
+}
+
+.star::after{
+    content: "__________";
+    position: absolute;
+    color: white;
+   left:120%;
+    bottom: 24%;
+    font-weight: bold;
+    }
+
+
+    .about p{
+
+        color: #fff;
+        font-size: 20px;
+     padding: 10px;
+      
+    }
+
+    button{
+        border: 1px solid #fff;
+        background-color: transparent;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+  
+    button:hover{
+
+        background-color: #fff;
+        color: black;
+    }

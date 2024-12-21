@@ -1,0 +1,49 @@
+
+.port{
+  
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+
+.port h1{
+    text-transform: uppercase;
+    color: rgb(44, 62, 80);
+    font-size: 50px;
+  font-weight: bold;
+   
+}
+.port .star{
+    
+    position: relative;
+    font-size: 30px;
+     color: rgb(44, 62, 80) ;
+   
+}
+
+.port  .star::before{
+content: "__________";
+position: absolute;
+color: rgb(44, 62, 80) ;
+right:120%;
+bottom: 24%;
+font-weight: bold;
+}
+
+.port  .star::after{
+    content: "__________";
+    position: absolute;
+    color: rgb(44, 62, 80) ;
+   left:120%;
+    bottom: 24%;
+    font-weight: bold;
+    }
+
+    .port img{
+
+
+    width: 100%;
+    }

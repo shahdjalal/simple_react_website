@@ -1,0 +1,57 @@
+.contact{
+
+    padding: 100px 0;
+}
+
+
+
+h1{
+    text-transform: uppercase;
+    color: rgb(44, 62, 80);
+    font-size: 50px;
+  font-weight: bold;
+   
+}
+.star{
+    
+    position: relative;
+    font-size: 30px;
+     color: rgb(44, 62, 80) ;
+   
+}
+
+ .star::before{
+content: "__________";
+position: absolute;
+color: rgb(44, 62, 80) ;
+right:120%;
+bottom: 24%;
+font-weight: bold;
+}
+
+  .star::after{
+    content: "__________";
+    position: absolute;
+    color: rgb(44, 62, 80) ;
+   left:120%;
+    bottom: 24%;
+    font-weight: bold;
+    }
+
+    form{
+        text-align: center;
+    }
+    input,textarea{
+        width: 60%;
+        margin: 20px;
+        border: none;
+        font-size: 20px;
+
+    }
+
+    button{
+        background-color: #1abc9c;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
